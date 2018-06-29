@@ -1,18 +1,24 @@
-## Welcome to GitHub Pages
+## Welcome to Project ___Name___
 
-You can use the [editor on GitHub](https://github.com/j-real/Moose-Tornadoes/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Who we are and what we do
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Better wording but...
+
+Add some of the Tableau graphs
+Add some stuff underneath describing them and how you got them
+
+
+
+-----
+
+Delete this when finished.
 
 ```markdown
 Syntax highlighted code block
 
 # Header 1
-<h1>dddd</h1>
 ## Header 2
 ### Header 3
 
