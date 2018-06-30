@@ -10,6 +10,11 @@ Add some of the Tableau graphs
 Add some stuff underneath describing them and how you got them
 
 
+<img src="http://s9.tinypic.com/2chub0m_th.jpg">
+<BR>Description....
+  
+  <P>
+  
 
 -----
 
