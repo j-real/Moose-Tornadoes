@@ -6,7 +6,7 @@ Who we are and what we do
 
 
 
-<img src="https://ibb.co/dJrmZy">
+<a href="https://ibb.co/dJrmZy"><img src="https://thumb.ibb.co/dJrmZy/Screen_Shot_2018_06_30_at_11_32_43_AM.png" alt="Screen_Shot_2018_06_30_at_11_32_43_AM" border="0"></a>
 <BR>Graph description....
 <P>
   
