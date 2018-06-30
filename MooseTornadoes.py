@@ -86,8 +86,8 @@ def Key_Stats(gather="Total Debt/Equity (mrq)"):
                     'Debt Equity Ratio':value,#}, ignore_index = True)
                     'Price': stock_price,
                     'stock_p_change': stock_p_change,
-                    'Difference': difference}, ignore_index=True,
-                    'Status': status)
+                    'Difference': difference,
+                    'Status': status}, ignore_index=True,)
                     # 'Difference': stock_p_change-sp500_p_change)}, ignore_index=True)
                     # 'SP500': sp500_value,
                     # 'sp500_p_change': sp500_p_change}, ignore_index = True)
