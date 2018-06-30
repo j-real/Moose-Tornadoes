@@ -1,13 +1,14 @@
-## Welcome to Project ___Name___
+## Welcome to Project Stock
 
-Who we are and what we do
+Created by Carre Perkins and Jules Real as the final project for the Data Analytics Bootcamp 2018.
 
-### Markdown
+### Graphs
 
+Below, you'll find various graphs we've created as part of our final project. These graphs and visualizations make it eaiser to visualize the data quickly and easily.
 
-
+# Number of Records Over the Years
 <img src="https://s8.postimg.cc/ki36l7bat/Screen_Shot_2018-06-30_at_11.32.43_AM.png">
-<BR>Graph description....
+<BR>The number of records of stocks over the years has gone up and down.
 <P>
   
 <img src="">
