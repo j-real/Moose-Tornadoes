@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn import svm, preprocessing
 import pandas as pd 
 from matplotlib import style 
-style.use ("ggplot")
+import time
 
 df = pd.read_csv('save.csv')
 
@@ -44,32 +44,10 @@ X = df[['DE Ratio',
              'Shares Short (prior ']]
 y = df["Status"].values.reshape(-1,1)
 
-
-
-# def Build_Data_Set ():
-#     data_df = pd.DataFrame.from_csv("save.csv")
-    
-#     X = np.array(data_df[FEATURES].values.tolist())
-#     y = data_df["Status"].replace("underperform",0).replace("outperform",1).values.reshape(-1,1)
-
-#     # X = preprocessing.scale(X)
-
-#     return X,y
+print(X.shape, y.shape)
 
 def Analysis():
 
-    # test_size = 500
-
-    # X,y = Build_Data_Set()
-    # print(len(X))
-    # clf = svm.SVC(kernel="linear", C=1.0)
-    # clf.fit(X[:-test_size],y[:-test_size])
-    # correct_count = 0
-
-    # for x in range (1, test_size+1):
-    #     if clf.predict(X[-x])[0] == y[-x]:
-    #         correct_count += 1
-    # print("Accuracy:", (correct_count/test_size)*100.00)
     from sklearn.model_selection import train_test_split
     X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42)
 
@@ -82,22 +60,17 @@ def Analysis():
     y_test_scaled = y_scaler.transform(y_test)
     from sklearn.svm import SVC
     model = SVC(kernel="linear")
-    model.fit(X_train_scaled, y_train_scaled.ravel())
-    # plt.scatter(model.predict(X_train_scaled), model.predict(X_train_scaled) - y_train_scaled, c="blue", label="Training Data")
-    # plt.scatter(model.predict(X_test_scaled), model.predict(X_test_scaled) - y_test_scaled, c="orange", label="Testing Data")
-    # plt.legend()
-    # plt.hlines(y=0, xmin=y_test_scaled.min(), xmax=y_test_scaled.max())
-    # plt.title("Residual Plot")
-    # plt.show()
-    print("Accuracy:" % model.score(X_test_scaled, y_test_scaled.astype(int)))
+    model.fit(X_train_scaled, y_train_scaled.astype(int))
+   
     from sklearn.metrics import mean_squared_error
 
     predictions = model.predict(X_test_scaled)
     MSE = mean_squared_error(y_test_scaled, predictions)
-    # r2 = model.score(X_test_scaled, y_test_scaled)
+
 
     print(f"MSE: {MSE}")
-
+    from sklearn.metrics import classification_report
+    print(classification_report(y_test, predictions))
 
 
 
