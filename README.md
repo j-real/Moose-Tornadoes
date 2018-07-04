@@ -14,4 +14,6 @@ A few key stocks were chosen for further inspection. It was found that the price
 <img src="https://s8.postimg.cc/q92jpyvd1/Screen_Shot_2018-06-30_at_12.42.36_PM.png">
 The vast majority of stock prices over the years has remained below 500 US$. This is in line with what we have seen from other graphs and visualizations. To invest in a decent company, you should have at least 500$ to start.
 
-  
+#### Lollipop Chart of Random Selection of Stocks
+<img src="https://s33.postimg.cc/4ez0maxen/Screen_Shot_2018-07-04_at_10.20.26_AM.png">
+The outlier Google was removed from the dataset. Random stocks were selected to show in a lollipop format the price of each. 
