@@ -17,3 +17,7 @@ The vast majority of stock prices over the years has remained below 500 US$. Thi
 #### Lollipop Chart of Random Selection of Stocks
 <img src="https://s33.postimg.cc/4ez0maxen/Screen_Shot_2018-07-04_at_10.20.26_AM.png">
 The outlier Google was removed from the dataset. Random stocks were selected to show in a lollipop format the price of each. 
+
+#### Accuracy of Predictions
+<img src="https://s33.postimg.cc/70mysot5b/Screen_Shot_2018-07-04_at_2.52.20_PM.png">
+Stocks that outperformed fell under the 1. Stocks that underperformed fell under the 0. In conclusion, we found that once we fed the data through the ML, our predictions were only about 67% accurate. Stick to the Apple Stocks app!
