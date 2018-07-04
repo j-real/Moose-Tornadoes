@@ -5,17 +5,13 @@ Created by Carre Perkins and Jules Real as the final project for the Data Analyt
 ### Graphs
 
 Below, you'll find various graphs we've created as part of our final project. These graphs and visualizations make it eaiser to visualize the data quickly and easily.
-
-#### Number of Records Over the Years
-<img src="https://s8.postimg.cc/ki36l7bat/Screen_Shot_2018-06-30_at_11.32.43_AM.png">
-The number of records of stocks over the years has gone up and down.
   
-#### Ticker Status Over the Years
-<img src="https://s8.postimg.cc/aap8m7m2t/Screen_Shot_2018-06-30_at_11.48.06_AM.png">
-The status of all tickers over the years has gone up and down.
+#### Total Price of Key Stocks With Breakdown by Year
+<img src="https://s33.postimg.cc/hfarin4in/Screen_Shot_2018-07-03_at_8.37.14_PM.png">
+A few key stocks were chosen for further inspection. It was found that the price of the stock was usually under a thousand dollars. However, the price of Google stock far oustripped the others. We also broke down the price of the stock to be able to see which year contributed to growths in price. 
   
 #### Average Price of Stock Over the Years
 <img src="https://s8.postimg.cc/q92jpyvd1/Screen_Shot_2018-06-30_at_12.42.36_PM.png">
-The vast majority of stock prices over the years has remained below 500 US$.
+The vast majority of stock prices over the years has remained below 500 US$. This is in line with what we have seen from other graphs and visualizations. To invest in a decent company, you should have at least 500$ to start.
 
   
