@@ -73,17 +73,6 @@ def Analysis():
     from sklearn.metrics import classification_report
     print(classification_report(y_test_scaled.astype(int), predictions))
 
-    # from sklearn.model_selection import GridSearchCV
-    # param_grid = {'C': [1, 5, 10],
-    #           'gamma': [0.0001, 0.001, 0.01]}
-    # grid = GridSearchCV(model, param_grid, verbose=3)
-    # grid.fit(X_train_scaled, y_train_scaled.astype(int))
-    # print(grid.best_params_)
-    # print(grid.best_score_)
-    # predictions = grid.predict(X_test_scaled)
-    # print(classification_report(y_test_scaled.astype(int), predictions))
 
 Analysis()
-
-
 
